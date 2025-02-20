@@ -25,14 +25,35 @@
   margin-left: auto;
 }
 
-.intro-text {
+/* .intro-text {
   position: relative;
   z-index: 2;
   width: 100%;
   max-width: 52.8rem;
   margin-bottom: 8rem;
   padding-top: 50rem;
+} */
+
+.intro-text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 52.8rem;
+  margin: 0 auto 8rem auto; /* 上=0, 左右=auto, 下=8rem */
+  padding-top: 60rem;
+  text-align: center; /* 讓內部文字也置中 */
 }
+
+/* 手機：減少 padding-top */
+@media (max-width: 1024px) {
+  .intro-text {
+    padding-top: 30rem;
+  }
+}
+
+
+
+
 
 .intro-text h1{
   margin-top:20px;
@@ -159,7 +180,7 @@
   transform: scale(1.5);
 }
 
-.img-w{
+/* .img-w{
   position: absolute;
   left: auto;
   top: -3rem;
@@ -168,7 +189,19 @@
   z-index: 1;
   display: block;
   width: 100%;
+} */
+
+.img-w {
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: block;
+  width: 80%; /* 或 max-width: 300px; */
+  height: auto;
 }
+
 
 .rick-img{
   visibility: visible;

@@ -1,0 +1,64 @@
+.pageSection{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background: #ffffff;
+}
+
+.pageSection,
+.radiusLarge{
+    min-height: 110vh;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-radius: 3.75rem;
+}
+
+.subject{
+    padding-left: 2rem;
+    margin-top:20px;
+    margin-bottom: 2rem;
+    color: #0c0e18;
+    font-size: var(--fs-700);
+}
+
+.containerL {
+    position: relative;
+    max-width: 91.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ulCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.liCard {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.75rem;
+    color: #0c0e18;
+    background: hsl(var(--clr-dark)/.3);
+}
+
+.introText {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+    max-width: 52.8rem;
+    margin-bottom: 16rem;
+    padding-left: 2rem;
+    padding-top: 5rem;
+}
+
+.introP {
+    font-size: var(--fs-400);
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}

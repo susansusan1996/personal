@@ -1,5 +1,5 @@
 import * as React from "react";
-import rickImg from "./assets/IMG_0552.png";
+import SusanImg from "./assets/IMG_0552.png";
 import Provide from "./components/Provide/Provide";
 import Experience from "./components/Experience/Experience";
 import "./App.css";
@@ -64,25 +64,25 @@ function App() {
             </div>
           </div>
           <div className={"img-w"}>
-            <img className={"rick-img"} src={rickImg} alt={"rick_img"} />
+            <img className={"rick-img"} src={SusanImg} alt={"susan_img"} />
           </div>
           <div className={"usp-wrapper usp-wrapper-r"}>
             {/* <a
               target={"_blank"}
               rel={"noreferrer"}
               className={"button w-button usp-item"}
-              href={"https://www.linkedin.com/in/rick-lo/"}
+              href={""}
             >
               Linkedin
             </a> */}
-            {/* <a
+            <a
               target={"_blank"}
               rel={"noreferrer"}
               className={"button w-button usp-item"}
-              href={"https://github.com/rickluo94"}
+              href={"https://github.com/susansusan1996"}
             >
               Github
-            </a> */}
+            </a>
           </div>
           <div className={"arrow"} onClick={onClickHandler}>
             <span></span>

@@ -5,7 +5,8 @@
 :root {
   /* colors */
   --clr-dark: 230 35% 7%;
-  --clr-light: 22 78.8% 50%;
+  /* --clr-light: 22 78.8% 50%; */ /* 橘色 */
+  --clr-light: 200, 100%, 50%;  /* 藍色 */
   --clr-white: 0 0% 100%;
 
   /* font-sizes */

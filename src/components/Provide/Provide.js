@@ -13,7 +13,7 @@ const Provide = () => {
   return (
     <div id="provide" className={classes.pageSection}>
       <div className={classes.containerL}>
-        <div className={classes.subject}>技術技術</div>
+        <div className={classes.subject}>技能</div>
         <ul className={classes.ulCard}>
           <li className={classes.liCard} data-aos="fade-up-right">
             <p>網站切版</p>
@@ -37,6 +37,13 @@ const Provide = () => {
               <li>MySql</li>
               <li>MSSQL</li>
               <li>PostgreSQL</li>
+            </ul>
+          </li>
+          <li className={classes.liCard} data-aos="fade-up-right">
+            <p>Infra</p>
+            <ul>
+              <li>Docker</li>
+              <li>Aws</li>
             </ul>
           </li>
         </ul>

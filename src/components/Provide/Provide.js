@@ -37,13 +37,15 @@ const Provide = () => {
               <li>MySql</li>
               <li>MSSQL</li>
               <li>PostgreSQL</li>
+              <li>Redis</li>
             </ul>
           </li>
           <li className={classes.liCard} data-aos="fade-up-right">
             <p>Infra</p>
             <ul>
               <li>Docker</li>
-              <li>Aws</li>
+              <li>Aws (通過AWS雲端從業人員證照)</li>
+              <li>Azure</li>
             </ul>
           </li>
         </ul>

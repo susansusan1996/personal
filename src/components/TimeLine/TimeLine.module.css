@@ -47,13 +47,15 @@
   position: relative;
 }
 
-.rick_img{
+.susan_img {
   visibility: visible;
   display: block;
   width: 100%;
   max-width: 100%;
   transform-style: preserve-3d;
   animation: 800ms ease-out 0s 1 rotateIn;
+  border-radius: 10px; /* 圓角 */
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* 陰影 */
 }
 
 .img_sub{
